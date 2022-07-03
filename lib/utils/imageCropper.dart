@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:image_cropper/image_cropper.dart';
 
 Future<File> cropImage(File currentThumbnail) async {
-  File? croppedFile = await ImageCropper.cropImage(
+  File? croppedFile = await ImageCropper().cropImage(
       sourcePath: currentThumbnail.path,
       aspectRatioPresets: Platform.isAndroid
           ? [

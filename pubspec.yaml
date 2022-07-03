@@ -76,7 +76,7 @@ dependencies:
   loadmore: ^2.0.1 # collapsable widget for long video descriptions
   jiffy: ^4.1.0 # library to display time in a user friendly way
   # scroll_snap_list: ^0.8.1 # not needed for now (snapping lists like instagram explore page)
-  share_plus: ^3.0.4 # share post
+  share_plus: ^4.0.10 # share post
   introduction_screen: ^2.1.0 # onboarding screen
   #material_floating_search_bar: ^0.3.4 
   flutter_barcode_scanner: ^2.0.0 #qr scan
@@ -117,6 +117,9 @@ dependencies:
 # unsorted
   equatable: ^2.0.3
   carousel_slider: ^4.0.0
+
+# compilation issue fix
+  visibility_detector: ^0.2.2
   
   
   
